@@ -17,7 +17,7 @@ public class Main {
     search(query);
   }
 
-  private static void search(String instructor) {
+  private static void search(String query) {
     final String BASE_URL = "https://sis.jhu.edu/api/classes";
     final String KEY = System.getenv("JHU_API_KEY");
 
